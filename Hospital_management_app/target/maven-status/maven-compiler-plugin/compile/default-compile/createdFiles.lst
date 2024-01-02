@@ -1,0 +1,4 @@
+com\test\demo\restcontroller\PatientRestController.class
+com\test\demo\repo\PatientRepo.class
+com\test\demo\model\Patient.class
+com\test\demo\HospitalManagementAppApplication.class
