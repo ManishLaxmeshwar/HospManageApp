@@ -1,0 +1,32 @@
+
+<div class="container col-md-6">
+    <h3 style="color: red;">Update Patient Details</h3>
+    <form class="container" (ngSubmit)="updatePatientData()">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Id</label>
+            <input type="email" class="form-control" id="pId" name="pId" [(ngModel)]="patient.pId">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Name</label>
+            <input type="text" class="form-control" id="pName" name="pName" [(ngModel)]="patient.pName">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Email Id</label>
+            <input type="email" class="form-control" id="pEmail" name="pEmail" [(ngModel)]="patient.pEmail">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Phone</label>
+            <input type="number" class="form-control" id="pPhone" name="pPhone" [(ngModel)]="patient.pPhone">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Disease Category</label>
+            <input type="text" class="form-control" id="pCategory" name="pCategory" [(ngModel)]="patient.pCategory">
+        </div>
+        <button type="submit" class="btn btn-success">Update Patient</button>
+    </form>
+</div>
+<br>
+<br>
+
+
+

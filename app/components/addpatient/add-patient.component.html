@@ -1,0 +1,50 @@
+<section class="h-100 gradient-form" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <!-- <div class="row g-0">
+              <div class="col-lg-6"> -->
+                <div class="card-body p-md-5 mx-md-4">
+<div class="container col-md-6">
+    <div class="text-center">
+        <img src="/assets/logo.png"
+          style="width: 150px; height: 100px;" alt="logo">
+    <h3 style="color: red;">Add Patient Details</h3>
+    <form class="container" (ngSubmit)="addPatientData()">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Id</label>
+            <input type="number" class="form-control" id="pId" name="pId" [(ngModel)]="patient.pId">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Name</label>
+            <input type="text" class="form-control" id="pName" name="pName" [(ngModel)]="patient.pName">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Email Id</label>
+            <input type="email" class="form-control" id="pEmail" name="pEmail" [(ngModel)]="patient.pEmail">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patient Phone</label>
+            <input type="number" class="form-control" id="pPhone" name="pPhone" [(ngModel)]="patient.pPhone">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Disease Category</label>
+            <input type="text" class="form-control" id="pCategory" name="pCategory" [(ngModel)]="patient.pCategory">
+        </div>
+        <button type="submit" class="btn btn-success">Register Patient</button>
+    </form>
+    </div>
+</div>
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- </div>
+</div> -->
+</section>
+
+

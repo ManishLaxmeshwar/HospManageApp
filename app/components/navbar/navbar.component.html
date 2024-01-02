@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="/assets/logo.png" width="30px" height="30px">
+
+    <a class="navbar-brand" routerLink="/">&nbsp;&nbsp;New Life Hospital</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" routerLink="/">Home<span class="sr-only"></span></a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Patient Records
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink="/addpatient">Add_patient</a>
+            <a class="dropdown-item" routerLink="/all-patients">All_Patients</a>
+         
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" routerLink="/about">New Life Hospital</a>
+          </div>
+     
+      </div>
+      <a class="nav-item nav-link active" routerLink="/login"><button type="button" class="btn btn-primary">Login</button><span class="sr-only"></span></a>
+    </div>
+   
+  </nav>
+  
+  
+  
